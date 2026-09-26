@@ -1,6 +1,6 @@
 # Hi, I'm Abdul Samad
 
-I finished my Computing Science degree in June 2026. Most of what I build is backend services, data pipelines, and systems with an LLM somewhere inside.
+I finished my Computing Science degree at the University of Alberta in June 2026. Most of what I build is backend services, data pipelines, and systems with an LLM somewhere inside.
 
 What I enjoy most is making that stuff hold up. That means real tests, evals that run on every push, retries that never double-count anything, and a record you can follow to see why a decision was made. Every project below has a demo you can click and reports its numbers as they came out, including the bad ones.
 
