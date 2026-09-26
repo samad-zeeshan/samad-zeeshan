@@ -1,28 +1,23 @@
 # Hi, I'm Abdul Samad
 
-I finished my Computing Science degree at the University of Alberta in June 2026. Most of what I build now is backend services, data pipelines, and apps with an LLM somewhere inside.
+I finished my Computing Science degree in June 2026. Most of what I build is backend services, data pipelines, and systems with an LLM somewhere inside.
 
-What I enjoy most is making that stuff hold up. That means real tests, evals that run on every push, retries that never double-count anything, and a record you can follow to see why a decision was made.
+What I enjoy most is making that stuff hold up. That means real tests, evals that run on every push, retries that never double-count anything, and a record you can follow to see why a decision was made. Every project below has a demo you can click and reports its numbers as they came out, including the bad ones.
 
-My portfolio has longer write-ups: https://samad-zeeshan.github.io/abdul-samad-zeeshan-portfolio/
+Portfolio: https://samad-zeeshan.github.io/abdul-samad-zeeshan-portfolio/
 
-## Things I've built
+## Projects
 
-| Project | What it does | Built with |
-|---|---|---|
-| [Tally](https://github.com/samad-zeeshan/Tally) | A small bank on a double-entry ledger. Each transfer is two postings that cancel out, a retried request is safe, and a reconciliation endpoint can rebuild every balance from scratch. | Java, PostgreSQL, React, Docker |
-| [Docket](https://github.com/samad-zeeshan/Docket) | Drop a receipt PDF into S3 and get back JSON that passes a schema check. Lambda calls Claude to do the reading. Failures land in a dead-letter queue with alarms, and an accuracy eval runs on every push. | TypeScript, AWS CDK, Lambda, Claude |
-| [Change-Gate](https://github.com/samad-zeeshan/Change-Gate) | An approval step for config changes and feature-flag flips, shared across tenants. It scores the risk, approves the safe ones itself, sends the rest to a person, and keeps a decision record nobody can quietly edit. | Python, LangGraph, MCP, Keycloak |
-| [Tarn](https://github.com/samad-zeeshan/Tarn) | A lakehouse for identity-security data. A billion real login events go through PySpark into a star schema, with streaming rollups and Neo4j graphs of privilege paths, all queryable from the browser. | PySpark, Redpanda, Neo4j |
-| [Fulcrum](https://github.com/samad-zeeshan/Fulcrum) | Builds degree plans term by term and checks that they're valid. It mixes RAG and CAG depending on the workload and gets scored by a calibrated eval harness. | Python, retrieval, LLM evals |
-| [Triage-0.6B](https://github.com/samad-zeeshan/Triage-0.6B) | Qwen3-0.6B, fine-tuned to read a support email and return triage JSON. I distilled it from a DeepSeek teacher. Priority accuracy went from 38% to 87% on 1,200 held-out tickets, and it runs offline as a GGUF. | PyTorch, LoRA, GGUF |
-| [Touchstone](https://github.com/samad-zeeshan/Touchstone) | Interactive lessons on ideas where gut feeling tends to be wrong. A tested Python oracle produces every number and every grade. The LLM only rewords the explanations. | FastAPI, React 19, TypeScript |
-| [Kvasir](https://github.com/samad-zeeshan/Kvasir) | An in-memory key-value store behind a concurrent TCP server, checked with Go's race detector. Transport, protocol, and storage each live in their own layer. | Go |
-| [pathfinder](https://github.com/samad-zeeshan/pathfinder) | A pathfinding visualizer compiled to WebAssembly. [Try it in your browser.](https://samad-zeeshan.github.io/pathfinder/) | C++17, raylib, Emscripten |
+- **Warden**: a guard for changes to live software. It approves the boring ones, blocks the dangerous ones, and cannot be talked round by a tricked AI assistant. [Demo](https://samad-zeeshan.github.io/Warden/) · [Repo](https://github.com/samad-zeeshan/Warden)
+- **Proving**: tests a new version of an AI agent on thousands of made-up customers before it meets a real one, then says ship or hold. [Demo](https://samad-zeeshan.github.io/Proving/) · [Repo](https://github.com/samad-zeeshan/Proving)
+- **Tally**: a small bank on a double-entry ledger that never loses or doubles a cent, checked with TLA+ and fault runs on Kubernetes. [Demo](https://samad-zeeshan.github.io/Tally/) · [Repo](https://github.com/samad-zeeshan/Tally)
+- **Parley**: a phone agent that books property viewings in English and Gulf Arabic and only states facts the listings database returned. [Demo](https://samad-zeeshan.github.io/Parley/) · [Repo](https://github.com/samad-zeeshan/Parley)
+- **Tarn**: a login graph scored against a billion real records with a known attack, plus an AI analyst that sorts the alerts. [Demo](https://samad-zeeshan.github.io/Tarn/) · [Repo](https://github.com/samad-zeeshan/Tarn)
+- **Triage**: a 600M-parameter model distilled to sort support emails into JSON offline. Priority accuracy went from 38.3% to 87.3% on 1,200 held-out tickets. Demo coming · [Repo](https://github.com/samad-zeeshan/Triage-0.6B)
+- **Docket**: reads receipt photos into schema-checked data and says which ones can skip a person at a 1% error budget. [Demo](https://samad-zeeshan.github.io/Docket/) · [Repo](https://github.com/samad-zeeshan/Docket)
+- **Bourse**: an order matching engine and market maker. In progress, built by hand.
 
-## Experience
-
-I've done three summer internships covering web, data, and automation work. The details are on my portfolio.
+Older work, including Fulcrum, Touchstone, Kvasir and pathfinder, is in my repositories.
 
 ## Say hi
 
