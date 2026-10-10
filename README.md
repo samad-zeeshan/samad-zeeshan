@@ -1,23 +1,23 @@
-# Hi, I am Abdul Samad
+# Hello,
 
-I finished my Computing Science degree at the University of Alberta in June 2026. I build backend services, data pipelines and systems with a language model.
+I completed a Computing Science degree at the University of Alberta in June 2026. I make backend services, data pipelines and systems that use a language model.
 
-I like to make these systems dependable. Each one has real tests and checks that run on every change. A repeated request never counts twice, and a log shows the reason for each decision. Each project below has a demo that you can open. Each one also gives its numbers as they came out, and that includes the bad ones.
+My aim is to make these systems reliable. Each system has tests and checks that run after each change. A log shows the reason for each decision. Each project below has a demo that you can open. Each project also shows all its results, and this includes the bad results.
 
 Portfolio: https://samad-zeeshan.github.io/abdul-samad-zeeshan-portfolio/
 
 ## Projects
 
-- **Warden** is a guard for changes to live software. It approves safe changes and blocks dangerous ones. A tricked AI assistant cannot talk it into a bad decision. [Demo](https://samad-zeeshan.github.io/Warden/) · [Repo](https://github.com/samad-zeeshan/Warden)
-- **Proving** tests a new version of an AI agent on thousands of made-up customers. Then it says ship or hold, before the agent meets a real customer. [Demo](https://samad-zeeshan.github.io/Proving/) · [Repo](https://github.com/samad-zeeshan/Proving)
-- **Tally** is a small bank that never loses or doubles a cent. I checked it with a formal model and with network and database failures. [Demo](https://samad-zeeshan.github.io/Tally/) · [Repo](https://github.com/samad-zeeshan/Tally)
-- **Parley** answers the phone and books property viewings in English and Gulf Arabic. It only says facts that came from the listings database. [Demo](https://samad-zeeshan.github.io/Parley/) · [Repo](https://github.com/samad-zeeshan/Parley)
-- **Tarn** looks for a known attacker in a billion real logins. An AI analyst then sorts the alerts for a person. [Demo](https://samad-zeeshan.github.io/Tarn/) · [Repo](https://github.com/samad-zeeshan/Tarn)
-- **Triage** is a small offline model that sorts support emails into JSON. It gave the right urgency to 87% of 1,200 new emails. Before training, it got 38%. [Demo](https://samad-zeeshan.github.io/Triage-0.6B/) · [Repo](https://github.com/samad-zeeshan/Triage-0.6B)
-- **Docket** reads receipt photos into checked data. It says which receipts can skip a person with a 1% error budget. [Demo](https://samad-zeeshan.github.io/Docket/) · [Repo](https://github.com/samad-zeeshan/Docket)
-- **Bourse** is a small stock exchange that never loses an order. Strict tests judge whether its trading robot's profit is only luck. [Demo](https://samad-zeeshan.github.io/Bourse/) · [Repo](https://github.com/samad-zeeshan/Bourse)
+- **Warden** examines changes to live software. It accepts safe changes and stops dangerous changes. An AI assistant that gets false instructions cannot make Warden accept a bad change. [Demo](#) · [Repo](#)
+- **Proving** tests a new version of an AI agent on thousands of test customers. Then it tells you to release the agent or to stop it. It does this before the agent speaks to a real customer. [Demo](#) · [Repo](#)
+- **Tally** is a small bank. It does not lose a cent, and it does not count a cent two times. I checked it with a formal model. I also checked it with network failures and database failures. [Demo](#) · [Repo](#)
+- **Parley** answers phone calls and books visits to properties. It speaks English and Gulf Arabic. It gives only facts from the listings database. [Demo](#) · [Repo](#)
+- **Tarn** finds a known attacker in one billion real logins. Then an AI analyst puts the alerts in order for a human analyst. [Demo](#) · [Repo](#)
+- **Triage** is a small offline model. It sorts support emails into JSON. Before training, it gave the correct urgency to 38% of emails. After training, it gave the correct urgency to 87% of 1,200 new emails. [Demo](#) · [Repo](#)
+- **Docket** reads photos of receipts and changes them into checked data. With an error limit of 1%, it tells you which receipts do not need a human check. [Demo](#) · [Repo](#)
+- **Bourse** is a small stock exchange. It does not lose an order. Strict tests show if the profit of its trading robot comes only from luck. [Demo](#) · [Repo](#)
 
-My older work is in my repositories. It includes Fulcrum, Touchstone, Kvasir and pathfinder.
+My older projects are in my repositories. These projects include Fulcrum, Touchstone, Kvasir and pathfinder.
 
 ## Contact
 
