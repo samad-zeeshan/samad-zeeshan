@@ -1,4 +1,4 @@
-# Hello!
+# Hello world!
 
 I completed a Computing Science degree at the University of Alberta in June 2026. I make backend services, data pipelines and systems that use a language model.
 
