@@ -1,6 +1,6 @@
 # Hi, I am Abdul Samad
 
-I finished my Computing Science degree at the University of Alberta in June 2026. I build backend services, data pipelines and systems with a language model inside.
+I finished my Computing Science degree at the University of Alberta in June 2026. I build backend services, data pipelines and systems with a language model.
 
 I like to make these systems dependable. Each one has real tests and checks that run on every change. A repeated request never counts twice, and a log shows the reason for each decision. Each project below has a demo that you can open. Each one also gives its numbers as they came out, and that includes the bad ones.
 
