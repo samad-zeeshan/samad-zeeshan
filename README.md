@@ -15,7 +15,7 @@ Portfolio: https://samad-zeeshan.github.io/abdul-samad-zeeshan-portfolio/
 - **Tarn** looks for a known attacker in a billion real logins. An AI analyst then sorts the alerts for a person. [Demo](https://samad-zeeshan.github.io/Tarn/) · [Repo](https://github.com/samad-zeeshan/Tarn)
 - **Triage** is a small offline model that sorts support emails into JSON. It gave the right urgency to 87% of 1,200 new emails. Before training, it got 38%. [Demo](https://samad-zeeshan.github.io/Triage-0.6B/) · [Repo](https://github.com/samad-zeeshan/Triage-0.6B)
 - **Docket** reads receipt photos into checked data. It says which receipts can skip a person with a 1% error budget. [Demo](https://samad-zeeshan.github.io/Docket/) · [Repo](https://github.com/samad-zeeshan/Docket)
-- **Bourse** is an engine that matches buy and sell orders, with a market maker. It is not finished yet.
+- **Bourse** is a small stock exchange that never loses an order. Strict tests judge whether its trading robot's profit is only luck. [Demo](https://samad-zeeshan.github.io/Bourse/) · [Repo](https://github.com/samad-zeeshan/Bourse)
 
 My older work is in my repositories. It includes Fulcrum, Touchstone, Kvasir and pathfinder.
 
